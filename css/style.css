@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Light Mode */
+  :root[color-mode="light"] {
+    --body-bg-color-: #f6f8ff;
+    --head-color-: #222731;
+    --darklight-color-: #697c9a;
+    --search-bg-color-: white;
+    --search-color-: #4b6a9b;
+    --black: black;
+    --follow-color-: #4b6a9b;
+    --followTotal-color-: #2b3442;
+  }
+
+  /* Dark Mode */
+  :root[color-mode="dark"] {
+    --body-bg-color-: #141d2f;
+    --head-color-: #ffffff;
+    --darklight-color-: #ffffff;
+    --search-bg-color-: #1e2a47;
+    --search-color-: #ffffff;
+    --black: white;
+    --follow-bg-color-: #f6f8ff;
+    --follow-color-: white;
+    --followTotal-color-: #ffffff;
+    --social-color-: white;
+  }
+  
+  body {
+    background: linear-gradient(266deg, rgba(236,236,236,1) 14%, rgba(46,115,231,1) 100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Noto Sans", sans-serif;;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 730px;
+    margin-bottom: 25px;
+  }
+  
+  button {
+      cursor: pointer;
+  }
+  
+  .search {
+    height: 69px;
+    width: 730px;
+    background-color: var(--search-bg-color-);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .searchText {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .searchText img {
+    margin-left: 35px;
+  }
+  
+  .searchText input {
+    margin-left: 20px;
+    height: 100%;
+    width: 500px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: var(--search-color-);
+    background-color: var(--search-bg-color-);
+  }
+  
+  ::placeholder {
+    color: #adadb0;
+    opacity: 1;
+    font-size: 1rem;
+  } 
+  .searchbtn {
+    cursor: pointer;
+    padding-right: 1.5rem;
+  }
+  .resultBody {
+    background-color: var(--search-bg-color-);
+    width: 730px;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .resultBody .mainImg {
+    width: 117px;
+    height: 117px;
+    border-radius: 117px;
+    border: 1px solid var(--black);
+    object-fit: contain;
+  }
+  
+  .resultBody .mainImg img {
+    object-fit: contain;
+    width: 117px;
+    height: 117px;
+    border-radius: 117px;
+  }
+  
+  .githubHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 650px;
+    margin-top: 3rem;
+  }
+  
+  .githubInfo {
+    height: 100%;
+    width: 480px;
+    position: relative;
+  }
+  
+  .githubUser {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--followTotal-color-);
+  }
+  
+  
+  .githubUserName {
+    margin-top: 0.2rem;
+    font-size: 0.9rem;
+    color: #adadb0;
+  }
+  
+  .githubFact {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .githubRepo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(251, 246, 246);
+    height: 85px;
+    width: 480px;
+    border-radius: 0.5rem;
+  }
+  
+  .repoHeading,
+  .followerHeading,
+  .followingHeading {
+    font-size: 0.9rem;
+    color: var(--head-color-);
+  }
+  
+  .repoTotal,
+  .followerTotal,
+  .followingTotal {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--followTotal-color-);
+  }
+.first-row {
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    font-family: inherit;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.5rem;
+    outline: 0;  
+    box-shadow: none;
+    transition: all 0.3s ease;
+    border: solid 0.2rem rgb(237, 229, 229);
+    background-color: rgb(237, 229, 229);
+  
+}
+.edit-btn {
+    color: white;
+    border-color: rgba(46,115,231,1);
+    background-color: rgba(46,115,231,1);
+}
+  
