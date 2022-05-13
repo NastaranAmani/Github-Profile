@@ -54,10 +54,10 @@
   }
   
   .search {
-    height: 69px;
-    width: 730px;
+    height: 10%;
+    width: 50%;
     background-color: var(--search-bg-color-);
-    border-radius: 15px;
+    border-radius: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -76,7 +76,7 @@
   .searchText input {
     margin-left: 20px;
     height: 100%;
-    width: 500px;
+    width: 75%;
     border: none;
     outline: none;
     font-size: 18px;
@@ -95,9 +95,9 @@
   }
   .resultBody {
     background-color: var(--search-bg-color-);
-    width: 730px;
+    width: 50%;
     height: 300px;
-    border-radius: 15px;
+    border-radius: 1rem;
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
@@ -123,13 +123,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 650px;
+    width: 85%;
     margin-top: 3rem;
   }
   
   .githubInfo {
     height: 100%;
-    width: 480px;
+    width: 75%;
     position: relative;
   }
   
@@ -158,9 +158,9 @@
     align-items: center;
     justify-content: space-around;
     background-color: rgb(251, 246, 246);
-    height: 85px;
-    width: 480px;
-    border-radius: 0.5rem;
+    padding: 1rem 0;
+    width: 75%;
+    border-radius: 1rem;
   }
   
   .repoHeading,
@@ -198,4 +198,3 @@
     border-color: rgba(46,115,231,1);
     background-color: rgba(46,115,231,1);
 }
-  
