@@ -22,13 +22,12 @@
 ## About The Project
 
 This project is redesigned from a <a href="https://dribbble.com/shots/10670840-User-Profile-UI-Component" target="_blank">dribbble</a> shot.
-<br />
- This project displays Github profile information using Github users API and fetch. 
  <br />
 <div align="center">
     <img src="./img/Github-Demo.png" alt="" width="700">
 </div>
 <br />
+It displays Github profile information using Github users API and fetch. 
 Of course, It is not the best platform yet, but we are adding new features every day to make it the best you've ever seen.
 
 ### Built With
